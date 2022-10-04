@@ -22,7 +22,7 @@ public class DBConnection {
         }
     }
     
-    public Connection getConection(){
+    public Connection getConnection(){
      return connection;  
      
     }
@@ -30,4 +30,6 @@ public class DBConnection {
     public void desconectar(){
     connection = null;
     }
+
+   
 }
